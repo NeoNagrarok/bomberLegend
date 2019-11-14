@@ -1,0 +1,102 @@
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	margin: 0;
+}
+
+header
+{
+	height: 5%;
+	background-color: rgb(100, 100, 100);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav
+{
+	display: flex;
+	justify-content: center;
+	background: white;
+}
+
+main
+{
+	height: 85%;
+}
+
+main form
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+main section
+{
+	display: inline-block;
+	top: 5%;
+	height: 50%;
+	min-width: 33.33%;
+	background-color: rgb(100, 100, 100);
+	background: red;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	overflow: auto;
+}
+
+main .map
+{
+
+}
+
+main .players
+{
+
+}
+
+main .bonus
+{
+
+}
+
+main .malus
+{
+	width: 50%;
+}
+
+main .misc
+{
+	width: 50%;
+}
+
+main section h2
+{
+	text-align: center;
+}
+
+main section .hidden
+{
+	display: none;
+}
+
+main section .show
+{
+	display: inline;
+}
+
+footer
+{
+	height: 10%;
+	background-color: rgb(100, 100, 100);
+	box-sizing: border-box;
+}

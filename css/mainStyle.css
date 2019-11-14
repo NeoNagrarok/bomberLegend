@@ -1,0 +1,26 @@
+body
+{
+	font-size: 100%;
+	background: yellow;
+	margin: 0;
+}
+
+header
+{
+	background: red;
+}
+
+nav
+{
+	background: orange;
+}
+
+main
+{
+	background: green;
+}
+
+footer
+{
+	background: purple;
+}

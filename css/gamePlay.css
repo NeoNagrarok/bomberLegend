@@ -1,0 +1,153 @@
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	margin: 0;
+	display: flex;
+}
+
+header
+{
+	width: 20%;
+	height: 100%;
+	background-color: rgb(100,100,100);
+}
+
+main
+{
+	width: 60%;
+	overflow:hidden;
+}
+
+main table
+{
+	border-collapse: collapse;
+	white-space: nowrap;
+}
+
+main table tr td
+{
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	vertical-align: middle;
+	box-sizing: border-box;
+	position: relative;
+}
+
+main table tr td img
+{
+	width: 100%;
+	height: 100%;
+}
+
+main table tr td.block
+{
+	background-image: url(../game/images/cases/block.png);
+	background-size: cover;
+}
+
+main table tr td.stone
+{
+	background-image: url(../game/images/cases/stone.png);
+	background-size: cover;
+}
+
+main table tr td.sand
+{
+	background-image: url(../game/images/cases/sand2.png);
+	background-size: cover;
+}
+
+main table tr td.granite
+{
+	background-image: url(../game/images/cases/granite.png);
+	background-size: cover;
+}
+
+main table tr td.explosive
+{
+	background-image: url(../game/images/cases/explosive.png);
+	background-size: cover;
+}
+
+main table tr td.empty
+{
+	background-image: url(../game/images/cases/empty.png);
+	background-size: cover;
+}
+
+main table tr td .bomber, main table tr td .bomb
+{
+	background-size: auto 85%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 64px;
+	height: 64px;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	/*transition: all 0.3s;*/
+}
+
+main table tr td .bomber img, main table tr td .bomb img
+{
+	max-height: 85%;
+	width: auto;
+}
+
+/*main table tr td .bomberTop
+{
+	background-image: url(../game/images/bomberman/bombermanTopBase.png);
+}
+
+main table tr td .bomberBottom
+{
+	background-image: url(../game/images/bomberman/bombermanBottomBase.png);
+}
+
+main table tr td .bomberLeft
+{
+	background-image: url(../game/images/bomberman/bombermanLeftBase.png);
+}
+
+main table tr td .bomberRight
+{
+	background-image: url(../game/images/bomberman/bombermanRightBase.png);
+}
+
+main table tr td .bomberTopMain
+{
+	background-image: url(../game/images/bomberman/bombermanTopMain.png);
+}
+
+main table tr td .bomberBottomMain
+{
+	background-image: url(../game/images/bomberman/bombermanBottomMain.png);
+}
+
+main table tr td .bomberLeftMain
+{
+	background-image: url(../game/images/bomberman/bombermanLeftMain.png);
+}
+
+main table tr td .bomberRightMain
+{
+	background-image: url(../game/images/bomberman/bombermanRightMain.png);
+}*/
+
+footer
+{
+	width: 20%;
+	height: 100%;
+	background-color: rgb(100,100,100);
+}
